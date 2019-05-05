@@ -10,27 +10,27 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 334,
-                    "y": 117,
-                    "uniqueID": 332605,
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 187,
+                    "y": 132,
+                    "uniqueID": 296487,
                     "ioValues": [
                         {
-                            "name": "x length",
+                            "name": "radius",
                             "ioValue": 10
                         },
                         {
-                            "name": "y length",
-                            "ioValue": 10
+                            "name": "max segment size",
+                            "ioValue": 1
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 588,
-                    "y": 94,
+                    "x": 488,
+                    "y": 88,
                     "uniqueID": 531337,
                     "ioValues": [
                         {
@@ -51,7 +51,7 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 332605,
+                    "ap1ID": 296487,
                     "ap2ID": 531337
                 },
                 {
