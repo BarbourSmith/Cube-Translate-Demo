@@ -15,18 +15,10 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Input678792",
-                    "x": 114.84070796460178,
-                    "y": 181.3274336283186,
-                    "uniqueID": 252209,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 187,
-                    "y": 132,
+                    "x": 125,
+                    "y": 114,
                     "uniqueID": 296487,
                     "ioValues": [
                         {
@@ -38,6 +30,14 @@
                             "ioValue": 1
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input678792",
+                    "x": 114.84070796460178,
+                    "y": 181.3274336283186,
+                    "uniqueID": 252209,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Constant",
@@ -55,8 +55,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 488,
-                    "y": 88,
+                    "x": 568,
+                    "y": 115,
                     "uniqueID": 531337,
                     "ioValues": [
                         {
