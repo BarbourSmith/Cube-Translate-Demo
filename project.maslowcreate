@@ -6,12 +6,7 @@
             "x": 0,
             "y": 0,
             "uniqueID": 568693,
-            "ioValues": [
-                {
-                    "name": "Input678792",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -32,27 +27,6 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Input678792",
-                    "x": 114.84070796460178,
-                    "y": 181.3274336283186,
-                    "uniqueID": 252209,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 187.3716814159292,
-                    "y": 206.5117994100295,
-                    "uniqueID": 482891,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 350,
@@ -68,7 +42,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1023,
+                    "x": 931,
                     "y": 164,
                     "ioValues": []
                 }
