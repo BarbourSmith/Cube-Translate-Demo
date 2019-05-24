@@ -19,10 +19,6 @@
                         {
                             "name": "radius",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "max segment size",
-                            "ioValue": 1
                         }
                     ]
                 },
@@ -42,7 +38,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1074,
                     "y": 164,
                     "ioValues": []
                 }
@@ -62,5 +58,6 @@
             ],
             "fileTypeVersion": 1
         }
-    ]
+    ],
+    "circleSegmentSize": 2
 }
