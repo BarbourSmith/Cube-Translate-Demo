@@ -6,21 +6,34 @@
             "x": 0,
             "y": 0,
             "uniqueID": 568693,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input523191",
+                    "ioValue": 5
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 125,
-                    "y": 114,
+                    "x": 181,
+                    "y": 113,
                     "uniqueID": 296487,
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input523191",
+                    "x": 118,
+                    "y": 232,
+                    "uniqueID": 485757,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -38,7 +51,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -49,6 +62,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 296487,
                     "ap2ID": 531337
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "radius",
+                    "ap1ID": 485757,
+                    "ap2ID": 296487
                 },
                 {
                     "ap1Name": "geometry",
