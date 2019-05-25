@@ -6,7 +6,12 @@
             "x": 0,
             "y": 0,
             "uniqueID": 568693,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input404112",
+                    "ioValue": 25
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -18,9 +23,17 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 10
+                            "ioValue": 25
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input404112",
+                    "x": 82,
+                    "y": 243,
+                    "uniqueID": 710464,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -49,6 +62,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 296487,
                     "ap2ID": 531337
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "radius",
+                    "ap1ID": 710464,
+                    "ap2ID": 296487
                 },
                 {
                     "ap1Name": "geometry",
