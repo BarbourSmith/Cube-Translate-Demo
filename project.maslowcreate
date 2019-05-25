@@ -8,7 +8,7 @@
             "uniqueID": 568693,
             "ioValues": [
                 {
-                    "name": "Input404112",
+                    "name": "Radius",
                     "ioValue": 25
                 }
             ],
@@ -29,7 +29,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input404112",
+                    "name": "Radius",
                     "x": 82,
                     "y": 243,
                     "uniqueID": 710464,
@@ -38,8 +38,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 315.944,
-                    "y": 64.24,
+                    "x": 514,
+                    "y": 76,
                     "uniqueID": 531337,
                     "ioValues": [
                         {
