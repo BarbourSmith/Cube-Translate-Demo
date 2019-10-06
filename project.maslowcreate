@@ -22,8 +22,8 @@
                     "uniqueID": 296487,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 25
+                            "name": "diameter",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -33,7 +33,12 @@
                     "x": 82,
                     "y": 243,
                     "uniqueID": 710464,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -51,7 +56,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 909,
                     "y": 164,
                     "ioValues": []
                 }
@@ -62,12 +67,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 296487,
                     "ap2ID": 531337
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "radius",
-                    "ap1ID": 710464,
-                    "ap2ID": 296487
                 },
                 {
                     "ap1Name": "geometry",
